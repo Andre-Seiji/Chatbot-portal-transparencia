@@ -1,0 +1,13 @@
+# PyTorch
+torch==2.7.0          
+
+# Hugging Face Transformers
+transformers==4.51.3  
+
+chromadb==1.0.9       
+
+langchain-ollama==0.3.3
+
+Streamlit==1.45.1
+
+nltk==3.9.1

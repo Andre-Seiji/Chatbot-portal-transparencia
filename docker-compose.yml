@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./chroma_db:/app/chroma_db
+    ports:
+      - "8501:8501"
+    environment:
+      - ANONYMIZED_TELEMETRY=FALSE
+    restart: unless-stopped
