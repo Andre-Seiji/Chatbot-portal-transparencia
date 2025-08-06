@@ -6,6 +6,8 @@ A portuguese chatbot for answering questions about "Portal da transparência" (h
 
 The embedding is made with GTE model (https://huggingface.co/Alibaba-NLP/gte-multilingual-base) and it is stored in the Chromadb.
 
+If the user makes a question that is not present in the FAQ, the LLM will not give an answer.
+
 Adapting this chatbot to other contexts is simple: update the FAQ file and the stopwords, and modify the LLM's prompt.
 
 ## Installation
